@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+<style>
+  #ptext{
+    line-height: 1.7;
+    font-size: 15px; 
+    text-align: justify !important;
+}
+</style>
+</head>
+<body>
+  
+    <nav  style=" background-color: rgb(154, 30, 30)">
+      <div class="container">
+        <div class="nav-wrapper ">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" class="brand-logo" style="font-size: 25px;"><img src="img/logo.png" height="60px" style="padding-top:10px; padding-bottom: 10px;"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html" style="font-size: 18px !important;">Home</a></li>
+            <li><a href="about.html" style="font-size: 18px !important;">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html" style="font-size: 18px !important;">Home</a></li>
+        <li><a href="about.html" style="font-size: 18px !important;">About</a></li>
+      </ul>
+              
+
+
+<div class="container">
+  <div class="row">
+      <div class="col s12 m12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/daa.jpg" class="responsive-img">
+            <span class="card-title">Card Title</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/female.jpg">
+            <span class="card-title">Card Title</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+
+</div>
+
+<!-- footer -->
+<footer class="page-footer black lighten-3">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        
+        <h5 class="white-text">Contact</h5>
+        <p><span style="font-weight: bold;">Email:</span>HerVoice12345@gmail.com</p>
+        <p>Agege Motor Road,</p>
+        <p>Mushin,</p>
+        <p>Lagos State.</p>
+        
+      </div>
+      <div class="col l4 offset-l2 s12"><br>
+        
+        <ul>
+          <li><a href="" target ="_blank" class=" btn-floating btn-small" style="background-color: rgb(154, 30, 30);" data-position="bottom" data-tooltip="Instagram"> 
+            <i class="fab fa-instagram"></i>
+          </a>   Instagram</li><br>
+          <li><a href="https://web.facebook.com/profile.php?id=61560436803078" target ="_blank" class=" btn-floating btn-small" style="background-color: rgb(154, 30, 30);" data-position="bottom" data-tooltip="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>   Facebook</li><br>
+          <li><a href="https://x.com/her_voice24172" class=" btn-floating btn-small" style="background-color: rgb(154, 30, 30);" target ="_blank" data-position="bottom" data-tooltip="twitter">
+            <i class="fab fa-twitter"></i>
+          </a>   Twitter</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright" style="background-color: rgb(154, 30, 30);">
+    <div class="container center-align">&copy; 2024 HerVoice</div>
+  </div>
+</footer>
+
+  <script src="materialize/js/jquery.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+      $('.slider').slider(); 
+  
+    });
+  </script>
+</body>
+</html>

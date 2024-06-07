@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+  <style>
+    header{
+      background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.742)), url("img/hand.avif");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      min-height: 100vh;
+    }
+
+    li>a:hover{
+      color: rgb(154, 30, 30);
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header id="home">
+<nav class="z-depth-0 transparent">
+  <div class="container">
+    <a class="sidenav-trigger" data-target="side">
+      <i class="material-icons large" style="font-size: 40px;">menu</i></a>
+      <a href="#" class="brand-logo" style="font-size: 25px;"><img src="img/logo1.png" height="60px" style="padding-top:10px; padding-bottom: 10px;"></a>
+  </div>
+
+  <ul class="right hide-on-med-and-down" style="padding-right: 150px;">
+    <li><a href="index.html" style="font-size: 20px !important;">Home</a></li>
+    <li><a href="about.html" style="font-size: 20px !important;">About</a></li>
+  </ul>
+</nav>
+
+<div class="header-text center-align white-text">
+  <h2 class="hide-on-med-and-down" style="padding-top: 120px; font-weight: 1000; width:100%;">Welcome To HerVoice</h2>
+  <h3 class="hide-on-large-only responsive-text" style="padding-top: 65%; font-weight: 1000;">Welcome To HerVoice </h3>
+  <a href="solution.html" target="_blank"  class="btn btn-header waves-effect waves-light btn-large"  style="margin: 23px; background-color:rgba(255, 0, 0, 0.354)!important; font-weight: bold; border-radius: 300px">HerVoice App<i class="material-icons right">apps</i></a>
+  <a href="more.html" target="_blank" class="btn z-depth-5 btn-header transparent modal-trigger waves-effect waves-light btn-large"id="book" style="border:2px solid rgba(255, 0, 0, 0.354)!important; font-weight: bold; border-radius: 300px">Team<i class="material-icons right">people</i></a>
+
+</div>
+
+
+<ul class="sidenav" id="side">
+  <li><a href="index.html" style="font-size: 20px !important;">Home</a></li>
+  <li><a href="about.html" style="font-size: 20px !important;">About</a></li>
+</ul>
+
+  </div>
+
+
+</header>
+
+
+<script src="materialize/js/jquery.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script>
+
+
+  $(document).ready(function(){
+
+    $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker({
+      disableWeekends: true,
+      yearRange: 1
+    });
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider(); 
+    $('.tap-target').tapTarget();
+
+  });
+</script>
+</body>
+</html>
+
